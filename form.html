@@ -8,24 +8,44 @@
 </head>
 
 <body>
-  <div class="mainDiv">
-  <table id="formTable">
-    <tr><td> <label>First name:</label> </td>
-    <td><input type="text" id="fname"><br>
-    <div id="errfname" class="errors"></div></td>
-    <td> <label>Last name:</label> </td>
-    <td><input type="text" id="lname"><br>
-	<div id="errlname" class="errors"></div></td>
-  </tr>
-  <tr>
-    <td><label>Birthdate: </label></td><td><input type="date" id="birthdate"></td>
-    <td><label>Gender:</label></td><td><input type="radio" name="gender" checked> male<br>
-      <input type="radio" name="gender">female</td>
-    </tr
-    <tr><td></td><td></td><td></td>
-      <td><input type="button" id="btnOk" value="Submit"></td>
-    </tr>
-</table>
+<div class="mainDiv">
+	<table id="formTable">
+		<tr>
+			<td>
+				<label>First name:</label>
+			</td>
+			<td>
+				<input type="text" id="fname"><br>
+				<div id="errfname" class="errors"></div>
+			</td>
+			<td>
+				<label>Last name:</label>
+			</td>
+			<td>
+				<input type="text" id="lname"><br>
+				<div id="errlname" class="errors"></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Birthdate: </label>
+			</td>
+			<td>
+				<input type="date" id="birthdate"><br>
+				<div id="errdate" class="errors"></div>
+			</td>
+			<td>
+				<label>Gender:</label>
+			</td>
+			<td>
+				<input type="radio" name="gender" checked> male<br>
+				<input type="radio" name="gender">female
+			</td>
+		</tr
+		<tr><td></td><td></td><td></td>
+		  <td><input type="button" id="btnOk" value="Submit"></td>
+		</tr>
+	</table>
 <br>
 <div class="menu">
   Chose gender:
@@ -40,30 +60,11 @@
 <div class="table">
 
 <br>
-<table style="width:100%" border="2">
+<table style="width:100%" border="2" id="PersonInfoTable">
   <tr>
     <th>Meno</th>
-    <th>Priezvisko</th> 
+    <th>Priezvisko</th>
     <th>Vek</th>
-	<th>Action</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
-	<td></td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-	<td></td>
-  </tr>
-  <tr>
-    <td>John</td>
-    <td>Doe</td>
-    <td>80</td>
-	<td></td>
   </tr>
 </table>
 
