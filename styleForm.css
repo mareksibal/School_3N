@@ -1,0 +1,20 @@
+#formTable { margin: auto; background-color: lightblue; padding-top: 30px;
+ padding-bottom: 20px;}
+
+td {padding-left: 20px; padding-right: 30px;}
+
+label { font-weight: bold; }
+
+#btnOk { width: 120px; align-content:  center;}
+
+div.mainDiv {position: relative; width: 700px;
+margin: auto;}
+
+div.menu { position: relative;  background-color: lightblue; width: 660px;
+       margin: auto; padding-top: 10px; padding-bottom: 10px;
+       padding-left: 12px;
+     }
+
+div.selectBox { }
+
+.errors {color: red;}
